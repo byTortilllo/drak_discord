@@ -1,7 +1,7 @@
 RegisterCommand("discord", function()
-    msg ("Entra al Pon aqui tu discord")
+    msg ("Discord del servidor: (Aqui pone tu discord)")
 end)
 
 function msg(texto)
-    TriggerEvent ("chatMessage", "DISCORD", {1, 193, 255}, texto)
+    TriggerEvent ("chatMessage", "[Discord]", {255, 0, 0}, texto)
 end
